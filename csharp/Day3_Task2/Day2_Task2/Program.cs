@@ -7,7 +7,7 @@ while (response == 'y')
     double F = (C * 9 / 5) + 32;
     Console.WriteLine("Temperature in Fahrenheit is " + F);
 
-    Console.WriteLine($"Do you wish to Continue");
+    Console.WriteLine($"Do you wish to Continue?(y/n)");
     response = Char.Parse(Console.ReadLine());
     response = Char.ToLower(response);
 
